@@ -12,7 +12,7 @@ IMPORTACIÓN DE FUENTES Y CONFIGURACIÓN GLOBAL
 body {
   font-family: "Jost", serif;
   min-height: 100vh;
-  background: url(./images/Sunset_Studio.png) no-repeat center center/cover fixed;
+  background: url(Sunset_Studio.png) no-repeat center center/cover fixed;
   color: #ffffff;
 }
 
@@ -31,6 +31,12 @@ BARRA DE NAVEGACIÓN
   box-shadow: 0 10px 20px rgba(54, 111, 172, 0.5);
   backdrop-filter: blur(10px);
   z-index: 999;
+  
+  .img{
+  width: 60%;
+  align-items: baseline;
+}
+
 }
 
 .navbar-container {
@@ -42,7 +48,7 @@ BARRA DE NAVEGACIÓN
   max-width: 1600px;
 }
 
-.navbar-logo {
+.navbar-logo .logo {
   font-size: 2rem;
   font-weight: 600;
   color: #fff;
@@ -72,7 +78,7 @@ BARRA DE NAVEGACIÓN
 .navbar-container .navbar-menu li a:hover,
 .navbar-container .navbar-menu li a.active {
   color: #162530;
-  background: rgba(188, 212, 229, 0.8);
+  background: rgba(225, 188, 229, 0.8);
   border: 2px solid #fff;
 }
 
@@ -92,6 +98,7 @@ BARRA DE NAVEGACIÓN
   background: #fff;
   transition: all 0.3s ease-in-out;
 }
+
 
 /* ==========================================================================
 SECCIÓN HEADER / HERO
@@ -250,6 +257,11 @@ SECCIÓN FOOTER / PIE DE PÁGINA
   border-top: 1px solid rgba(73, 6, 109, 0.1);
   padding-top: 3rem;
   margin-top: 4rem;
+
+  .img{
+  width: 20px;
+}
+
 }
 
 .footer-container {
